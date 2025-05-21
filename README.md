@@ -4,6 +4,26 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
+## Verions:
+
+React: 18.3.1
+
+React Native: 0.77.2
+
+Node: 20.16.0
+
+Npm: 10.8.1
+
+## Videos:
+
+Login Flow: 
+
+https://github.com/user-attachments/assets/71a28cde-960f-44d4-97e5-a97dea969f99
+
+Register Flow: 
+
+https://github.com/user-attachments/assets/c43c3ffe-3399-4f6d-926a-686e1d1042aa
+
 ## Step 1: Start Metro
 
 First, you will need to run **Metro**, the JavaScript build tool for React Native.
