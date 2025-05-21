@@ -11,7 +11,9 @@
     "testAndroidDebug": "detox build --configuration android.emu.debug && detox test --configuration android.emu.debug",
     "testAndroidRelease": "detox build --configuration android.emu.release && detox test --configuration android.emu.release",
     "testIosDebug": "detox build --configuration ios.sim.debug && detox test --configuration ios.sim.debug",
-    "testIosRelease": "detox build --configuration ios.sim.release && detox test --configuration ios.sim.release"
+    "testIosRelease": "detox build --configuration ios.sim.release && detox test --configuration ios.sim.release",
+    "reuse:android": "detox test --reuse --configuration android.emu.debug -d Register",
+    "reuse:ios": "detox test --reuse --configuration ios.sim.debug -d Register"
   },
   "dependencies": {
     "@react-navigation/elements": "^2.3.1",
